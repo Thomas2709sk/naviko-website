@@ -49,6 +49,8 @@ The website is intentionally kept simple and accessible, with a focus on clarity
 
 Here are all the documents and tools used throughout the development of Naviko
 
+### Project Documentation
+
 ### Design
 
 #### Brand
@@ -72,7 +74,10 @@ Here are all the documents and tools used throughout the development of Naviko
 - [Mobile Mockups (PDF)](docs/design/Mockup%20Mobile%20Website.pdf)
 - [Desktop Mockups (PDF)](docs/design/Mockups%20Desktop%20Website.pdf)
 
-### Project Documentation
+### Diagrams
+
+- [Website User Flow (PNG)](docs/diagrams/User%20Flows.jpg)
+- [Use case diagram (PNG)](docs/diagrams/Diagramme%20use%20case.png)
 
 ---
 
