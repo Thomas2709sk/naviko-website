@@ -51,6 +51,27 @@ Here are all the documents and tools used throughout the development of Naviko
 
 ### Design
 
+#### Brand
+
+- [Logos (PDF)](docs/design/Logos.pdf)
+
+#### Colors
+- [Brand colours (PDF)](docs/design/Brand%20Colors.pdf)
+- [UI colours (PDF)](docs/design/UI%20colors.pdf)
+- [AI Detection colours (PDF)](docs/design/AI%20detection.pdf)
+
+#### UI
+
+- [Typography (PDF)](docs/design/Typography.pdf)
+- [Components (PDF)](docs/design/Components.pdf)
+
+#### Interfaces
+
+- [Mobile Wireframes (PDF)](docs/design/Wireframes%20Mobile%20Website.pdf)
+- [Desktop Wireframe (PDF)](docs/design/Wireframes%20Desktop%20Website.pdf)
+- [Mobile Mockups (PDF)](docs/design/Mockup%20Mobile%20Website.pdf)
+- [Desktop Mockups (PDF)](docs/design/Mockups%20Desktop%20Website.pdf)
+
 ### Project Documentation
 
 ---
