@@ -51,6 +51,16 @@ Here are all the documents and tools used throughout the development of Naviko
 
 ### Project Documentation
 
+- [Opportunity Analysis (PDF)](docs/documentations/etude%20opportunites.pdf)
+- [Project Charter (PDF)](docs/documentations/note%20de%20cadrage.pdf)
+- [Feasability Study (PDF)](docs/documentations/Etude%20faisabilité.pdf)
+- [Risks Analysis (PDF)](docs/documentations/Analyse%20risques.pdf)
+- [Functional Analysis (PDF)](docs/documentations/Analyse%20fonctionelle.pdf)
+- [Function Table (PDF)](docs/documentations/function%20table.pdf)
+- [Software Requirements Specification (PDF)](docs/documentations/Cahier%20des%20charges.pdf)
+- [Project Management (PDF)](docs/documentations/Gestion%20de%20projet.pdf)
+
+
 ### Design
 
 #### Brand
