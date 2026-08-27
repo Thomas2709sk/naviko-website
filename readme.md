@@ -67,7 +67,7 @@ Here are all the documents and tools used throughout the development of Naviko
 
 - [Logos (PDF)](docs/design/Logos.pdf)
 
-#### Colors
+#### Colours
 - [Brand colours (PDF)](docs/design/Brand%20Colors.pdf)
 - [UI colours (PDF)](docs/design/UI%20colors.pdf)
 - [AI Detection colours (PDF)](docs/design/AI%20detection.pdf)
