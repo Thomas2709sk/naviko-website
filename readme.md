@@ -59,7 +59,7 @@ Here are all the documents and tools used throughout the development of Naviko
 - [Function Table (PDF)](docs/documentations/function%20table.pdf)
 - [Software Requirements Specification (PDF)](docs/documentations/Cahier%20des%20charges.pdf)
 - [Project Management (PDF)](docs/documentations/Gestion%20de%20projet.pdf)
-
+- [Trello board](https://trello.com/b/u7vVSfVq/naviko)
 
 ### Design
 
