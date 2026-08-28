@@ -7,13 +7,14 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./assets/css/main.css">
     <title>Naviko</title>
 </head>
 <body>
     <main>
         <!-- Header -->
         <header>
-            <nav class="navbar navbar-expand-lg bg-primary fs-5 border-bottom navbar-dark">
+            <nav class="navbar navbar-expand-lg fs-5 navbar-dark">
                 <div class="container-fluid justify-content-between">
                     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -24,8 +25,8 @@
                                 <button class="btn btn-dark">Contact</button>
                             </li>
                             <li class="nav-item d-flex align-items-center gap-2">
-                                <i class="fa-solid fa-moon fs-3"></i>
-                                <p class="mb-0">Mode sombre</p>
+                                <i class="text-dark fa-solid fa-moon fs-3"></i>
+                                <p class="text-dark mb-0">Mode sombre</p>
                             </li>
                             <li class="nav-item d-flex align-items-center">
                                 <svg height="52px" width=52px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#41479B;" d="M473.655,88.276H38.345C17.167,88.276,0,105.443,0,126.621V385.38 c0,21.177,17.167,38.345,38.345,38.345h435.31c21.177,0,38.345-17.167,38.345-38.345V126.621 C512,105.443,494.833,88.276,473.655,88.276z"></path> <path style="fill:#F5F5F5;" d="M511.469,120.282c-3.022-18.159-18.797-32.007-37.814-32.007h-9.977l-163.54,107.147V88.276h-88.276 v107.147L48.322,88.276h-9.977c-19.017,0-34.792,13.847-37.814,32.007l139.778,91.58H0v88.276h140.309L0.531,391.717 c3.022,18.159,18.797,32.007,37.814,32.007h9.977l163.54-107.147v107.147h88.276V316.577l163.54,107.147h9.977 c19.017,0,34.792-13.847,37.814-32.007l-139.778-91.58H512v-88.276H371.691L511.469,120.282z"></path> <g> <polygon style="fill:#FF4B55;" points="282.483,88.276 229.517,88.276 229.517,229.517 0,229.517 0,282.483 229.517,282.483 229.517,423.724 282.483,423.724 282.483,282.483 512,282.483 512,229.517 282.483,229.517 "></polygon> <path style="fill:#FF4B55;" d="M24.793,421.252l186.583-121.114h-32.428L9.224,410.31 C13.377,415.157,18.714,418.955,24.793,421.252z"></path> <path style="fill:#FF4B55;" d="M346.388,300.138H313.96l180.716,117.305c5.057-3.321,9.277-7.807,12.287-13.075L346.388,300.138z"></path> <path style="fill:#FF4B55;" d="M4.049,109.475l157.73,102.387h32.428L15.475,95.842C10.676,99.414,6.749,104.084,4.049,109.475z"></path> <path style="fill:#FF4B55;" d="M332.566,211.862l170.035-110.375c-4.199-4.831-9.578-8.607-15.699-10.86L300.138,211.862H332.566z"></path> </g> </g></svg>
@@ -37,9 +38,62 @@
             </nav>
         </header>
         <!-- Header end -->
-        <section>
+        <section class="hero">
+        <div class="container-fluid px-0">
+            <div class="row align-items-center g-0">
+                <div class="col-lg-4 text-center hero-content">
+                    <img class="img-fluid hero-illustration" src="assets/images/Naviko Main.png" alt="Naviko Illustration">
+                    <h1 class="fw-bold fs-2 text-dark hero-title">
+                        Un compagnon intelligent à vos côtés
+                    </h1>
+                </div>
+                <div class="col-lg-8">
+                    <div class="position-relative">
+                        <div class="hero-blur-overlay"></div>
+                        <div class="hero-fade-overlay"></div>
+                        <img src="assets/images/family-lifestyle-night.jpg" alt=" Traversée piétonne" class="img-fluid">
+                    </div>
+                </div>
 
-        </section>
+            </div>
+        </div>
+    </section>
+    <nav class="bg-primary text-white py-3">
+        <div class="container-fluid px-lg-5">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3  justify-content-center text-center align-items-center">
+                <div class="col fs-4 border-end">
+                    <a href="#presentation" class="text-white text-decoration-none d-block">
+                        <span class="d-block mb-1">Présentation</span>
+                        <i class="fa-solid fa-circle-arrow-down fs-5"></i>
+                    </a>
+                </div>
+                <div class="col fs-4 menu-content border-end">
+                    <a href="#fonctionnalites" class="text-white text-decoration-none d-block">
+                        <span class="d-block mb-1">Fonctionnalités</span>
+                        <i class="fa-solid fa-circle-arrow-down fs-5"></i>
+                    </a>
+                </div>
+                <div class="col fs-4 border-end">
+                    <a href="#utilisation" class="text-white text-decoration-none d-block">
+                        <span class="d-block mb-1">Comment utiliser Naviko</span>
+                        <i class="fa-solid fa-circle-arrow-down fs-5"></i>
+                    </a>
+                </div>
+                <div class="col fs-4 border-end menu-content">
+                    <a href="#telechargement" class="text-white text-decoration-none d-block">
+                        <span class="d-block mb-1">Téléchargement</span>
+                        <i class="fa-solid fa-circle-arrow-down fs-5"></i>
+                    </a>
+                </div>
+                <div class="col fs-4">
+                    <a href="#faq" class="text-white text-decoration-none">
+                        <span class="d-block mb-1">FAQ</span>
+                        <i class="fa-solid fa-circle-arrow-down fs-5"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
