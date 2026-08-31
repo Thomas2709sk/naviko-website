@@ -56,8 +56,41 @@ position: absolute;
     }
 }
 
+/* End Hero section */
+
+/* Menu */
+
 @media (max-width: 991.98px) {
     .menu-content {
         border-right: none !important;
     }
 }
+
+/* End Menu */
+
+/* Introduction section */
+
+.presentation-section {
+    max-width: 100%;
+}
+
+@media (min-width: 992px) {
+    .presentation-section {
+        width: 50%;
+    }
+}
+.button-download {
+    max-width: 12rem;
+    border: none;
+    box-shadow: 0 5px 0 #111;
+    transition: all 0.15s ease;
+}
+
+@media (min-width: 992px) {
+    .button-download:hover {
+        transform: translateY(3px);
+        box-shadow: 0 1px 0 #111;
+    }
+}
+
+/* End Introduction section */
