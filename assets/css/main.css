@@ -105,28 +105,28 @@ position: absolute;
 
 /* How to use section */
 
-/* Couleur personnalisée Naviko */
+/* Text background*/
 .feature-text {
     background-color: #1b1846;
     width: 100%;
     max-width: 450px;
-    height: 390px; /* <--- Fixe la hauteur pour TOUTES les slides */
-    overflow-y: auto; /* Sécurité si le texte dépasse sur petit écran */
+    height: 390px;
+    overflow-y: auto;
 }
 
-/* Taille de l'image téléphone */
+/* Phone size */
 .feature-phone {
     width: 280px;
 }
 
-/* Chevauchement de l'image (Marge négative personnalisée pour mobile et desktop) */
+/* Margin */
 .mb-n4 { margin-bottom: -1.5rem !important; }
 @media (min-width: 992px) {
     .me-lg-n4 { margin-right: -2rem !important; }
     .mb-lg-0 { margin-bottom: 0 !important; }
 }
 
-/* Bouton Flèche */
+/* Arrow button */
 .feature-next {
     width: 50px;
     height: 50px;
@@ -140,19 +140,19 @@ position: absolute;
 
 @media (max-width: 991.98px) {
 
-    /* Placement de la flèche sur mobile */
+    /* Arrow button Mobile */
     .feature-next {
         position: absolute !important;
-        right: 15px !important;    /* Décale un peu du bord droit */
-        top: 45% !important;       /* Remonte la flèche vers le haut du composant */
+        right: 13px !important;
+        top: 45% !important;
         bottom: auto !important;
-        transform: translateY(-50%) !important; /* Centre proprement */
+        transform: translateY(-50%) !important;
         z-index: 10;
     }
 
 }
 
-/* Indicateurs (Cercles sous le carrousel) */
+/* Carousel dots */
 .feature-indicators {
     position: relative !important;
     gap: 10px;
@@ -169,3 +169,5 @@ position: absolute;
 .feature-indicators button.active {
     background-color: #1b1846 !important;
 }
+
+/* End How to use section */
