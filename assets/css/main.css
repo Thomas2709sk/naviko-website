@@ -174,5 +174,9 @@ position: absolute;
 /* Contact section */
 
 .contact-section{
-    margin-top: 8rem;
+    margin-top: 7rem;
+}
+
+.footer{
+    margin-top: 7rem;
 }
