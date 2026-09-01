@@ -170,6 +170,10 @@ position: absolute;
     background-color: #1b1846 !important;
 }
 
+.notice-section {
+    max-width: 60rem;
+}
+
 /* End How to use section */
 /* Contact section */
 
