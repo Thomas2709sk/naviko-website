@@ -1,5 +1,6 @@
-/* Bootstrap colours overide */
+/* Bootstrap overide */
 :root{
+    /* Colours */
     --bs-primary: #1B1846;
     --bs-primary-rgb: 27, 24, 70;
     --bs-secondary: #202124;
@@ -14,6 +15,13 @@
     --bs-warning-rgb: 245, 158, 11;
     --bs-danger: #DC2626;
     --bs-danger-rgb: 220, 38, 38;
+
+    /* Fonts */
+    --bs-body-font-family: 'Atkinson Hyperlegible', sans-serif;
+    h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Nunito', sans-serif;
+    }
 }
 
 /* btn overide for primary */
