@@ -15,19 +15,19 @@
     <main>
         <!-- Header -->
         <header>
-            <nav class="navbar navbar-expand-lg fs-5 navbar-dark">
+            <nav class="navbar navbar-expand fs-5">
                 <div class="container-fluid justify-content-between">
                     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <div class="d-flex ms-auto me-3 justify-content-end" id="navbarNavDropdown">
                         <ul class="navbar-nav text-light align-items-center gap-3 py-2 py-lg-0">
-                            <li class="nav-item">
-                                <a href="#contact" class="btn btn-primary">Contact</a>
+                            <li class="nav-item me-3">
+                                <a href="#contact" class="btn btn-primary fs-5">Contact</a>
                             </li>
-                            <li class="nav-item d-flex align-items-center gap-2">
-                                <i class="text-primary fa-solid fa-moon fs-3"></i>
-                                <p class="text-dark mb-0">Mode sombre</p>
+                            <li class="nav-item d-flex align-items-center gap-2 me-3">
+                                <i class="text-primary fa-solid fa-moon fs-2"></i>
+                                <p class="text-dark mb-0 d-none d-md-block">Mode sombre</p>
                             </li>
                             <li class="nav-item d-flex align-items-center">
                                 <svg height="52px" width=52px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#41479B;" d="M473.655,88.276H38.345C17.167,88.276,0,105.443,0,126.621V385.38 c0,21.177,17.167,38.345,38.345,38.345h435.31c21.177,0,38.345-17.167,38.345-38.345V126.621 C512,105.443,494.833,88.276,473.655,88.276z"></path> <path style="fill:#F5F5F5;" d="M511.469,120.282c-3.022-18.159-18.797-32.007-37.814-32.007h-9.977l-163.54,107.147V88.276h-88.276 v107.147L48.322,88.276h-9.977c-19.017,0-34.792,13.847-37.814,32.007l139.778,91.58H0v88.276h140.309L0.531,391.717 c3.022,18.159,18.797,32.007,37.814,32.007h9.977l163.54-107.147v107.147h88.276V316.577l163.54,107.147h9.977 c19.017,0,34.792-13.847,37.814-32.007l-139.778-91.58H512v-88.276H371.691L511.469,120.282z"></path> <g> <polygon style="fill:#FF4B55;" points="282.483,88.276 229.517,88.276 229.517,229.517 0,229.517 0,282.483 229.517,282.483 229.517,423.724 282.483,423.724 282.483,282.483 512,282.483 512,229.517 282.483,229.517 "></polygon> <path style="fill:#FF4B55;" d="M24.793,421.252l186.583-121.114h-32.428L9.224,410.31 C13.377,415.157,18.714,418.955,24.793,421.252z"></path> <path style="fill:#FF4B55;" d="M346.388,300.138H313.96l180.716,117.305c5.057-3.321,9.277-7.807,12.287-13.075L346.388,300.138z"></path> <path style="fill:#FF4B55;" d="M4.049,109.475l157.73,102.387h32.428L15.475,95.842C10.676,99.414,6.749,104.084,4.049,109.475z"></path> <path style="fill:#FF4B55;" d="M332.566,211.862l170.035-110.375c-4.199-4.831-9.578-8.607-15.699-10.86L300.138,211.862H332.566z"></path> </g> </g></svg>
@@ -99,7 +99,7 @@
         </nav>
         <!-- End Menu -->
         <!-- Introduction Section -->
-        <section class="container mx-auto pt-5 presentation-section">
+        <section class="container mx-auto pt-4 presentation-section">
             <h2 id="presentation" class="fw-bold text-center">Présentation</h2>
             <div class="pt-4">
                 <h3 class="text-center fw-bold">Pourquoi Naviko ?</h3>
@@ -122,7 +122,20 @@
         </section>
         <!-- End Introduction section -->
         <!-- Features section -->
-        <section class="pt-5 pb-5 container-fluid pb-5 bg-light">
+         <div class="wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="
+                    M0,50
+                    C180,35 330,25 500,42
+                    C720,65 900,100 1100,88
+                    C1230,82 1340,75 1440,68
+                    L1440,120
+                    L0,120
+                    Z">
+                </path>
+            </svg>
+        </div>
+        <section class="pt-3 pb-5 container-fluid pb-5 bg-light">
             <h2 id="fonctionnalites" class="text-center">Fonctionnalités</h2>
             <div class="notice-section mx-auto pb-5 pt-5">
                 <div class="row align-items-center">
@@ -224,6 +237,19 @@
                 </div>
             </div>
         </section>
+        <div class="wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="
+                    M0,50
+                    C180,35 330,25 500,42
+                    C720,65 900,100 1100,88
+                    C1230,82 1340,75 1440,68
+                    L1440,0
+                    L0,0
+                    Z">
+                </path>
+            </svg>
+        </div>
         <!-- End Features section -->
        <!-- Start How to use section -->
         <section class="container pt-5 pb-5">
@@ -324,7 +350,20 @@
         </section>
         <!-- End Download section -->
         <!-- Start FAQ section -->
-        <section class="container-fluid bg-light pb-5 pt-5 mb-5">
+         <div class="wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="
+                    M0,50
+                    C180,35 330,25 500,42
+                    C720,65 900,100 1100,88
+                    C1230,82 1340,75 1440,68
+                    L1440,120
+                    L0,120
+                    Z">
+                </path>
+            </svg>
+        </div>
+        <section class="container-fluid bg-light pb-5 pt-3">
             <div class="text-center">
                 <h2 id="faq">FAQ</h2>
                 <h3>Foire aux questions</h3>
@@ -352,12 +391,25 @@
                 </div>
             </div>
         </section>
+        <div class="wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="
+                    M0,50
+                    C180,35 330,25 500,42
+                    C720,65 900,100 1100,88
+                    C1230,82 1340,75 1440,68
+                    L1440,0
+                    L0,0
+                    Z">
+                </path>
+            </svg>
+        </div>
         <!-- End FAQ -->
         <!-- Contact section -->
         <section class="contact-section container-fluid bg-primary p-5">
             <h2 id="contact" class="text-center text-white">Contact</h2>
-            <div class="container bg-white p-2 d-flex align-items-center justify-content-center w-25">
-                <p class="text-center m-0">info@naviko.fr</p>
+            <div class="contact-box container p-3 d-flex align-items-center justify-content-center">
+                <p class="text-center text-white fs-4 m-0">info@naviko.fr</p>
             </div>
         </section>
         <!-- End contact section -->
