@@ -18,8 +18,7 @@
 
     /* Fonts */
     --bs-body-font-family: 'Atkinson Hyperlegible', sans-serif;
-    h1, h2, h3, h4, h5, h6,
-    .h1, .h2, .h3, .h4, .h5, .h6 {
+    h1, h2, h3, h4, h5, h6{
     font-family: 'Nunito', sans-serif;
     }
 }
@@ -50,6 +49,7 @@
   --bs-btn-active-border-color: color-mix(in srgb, var(--bs-primary), #000 20%);
 }
 
+/* reset */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -107,6 +107,10 @@ position: absolute;
         transform: translateY(-50px);
     }
 }
+
+.btn-dk{
+        max-width: 15rem;
+    }
 
 /* End Hero section */
 
