@@ -1,3 +1,21 @@
+/* Bootstrap colours overide */
+:root{
+    --bs-primary: #1B1846;
+    --bs-primary-rgb: 27, 24, 70;
+    --bs-secondary: #202124;
+    --bs-secondary-rgb: 32, 33, 36;
+    --bs-info: #1976D2;
+    --bs-info-rgb: 25, 118, 210;
+    --bs-light: #D9D9DA;
+    --bs-light-rgb: 217, 217, 218;
+    --bs-success: #16A34A;
+    --bs-success-rgb: 22, 163, 74;
+    --bs-warning: #F59E0B;
+    --bs-warning-rgb: 245, 158, 11;
+    --bs-danger: #DC2626;
+    --bs-danger-rgb: 220, 38, 38;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
