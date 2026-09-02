@@ -138,9 +138,8 @@ position: absolute;
     border-radius: 50%;
 }
 
+/* Arrow button Mobile */
 @media (max-width: 991.98px) {
-
-    /* Arrow button Mobile */
     .feature-next {
         position: absolute !important;
         right: 13px !important;
@@ -180,6 +179,9 @@ position: absolute;
 .contact-section{
     margin-top: 7rem;
 }
+
+/* End contact section */
+/* Start Footer */
 
 .footer{
     margin-top: 7rem;
