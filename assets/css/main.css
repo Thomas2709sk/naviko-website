@@ -179,7 +179,7 @@ position: absolute;
 .feature-text {
     width: 100%;
     max-width: 450px;
-    height: 390px;
+    height: 380px;
     overflow-y: auto;
 }
 
