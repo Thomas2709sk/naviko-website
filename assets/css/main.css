@@ -16,6 +16,32 @@
     --bs-danger-rgb: 220, 38, 38;
 }
 
+/* btn overide for primary */
+.btn-primary {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: color-mix(in srgb, var(--bs-primary), #000 15%);
+  --bs-btn-hover-border-color: color-mix(in srgb, var(--bs-primary), #000 20%);
+  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: color-mix(in srgb, var(--bs-primary), #000 20%);
+  --bs-btn-active-border-color: color-mix(in srgb, var(--bs-primary), #000 25%);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: var(--bs-primary);
+  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: color-mix(in srgb, var(--bs-primary), #000 15%);
+  --bs-btn-active-border-color: color-mix(in srgb, var(--bs-primary), #000 20%);
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -125,7 +151,6 @@ position: absolute;
 
 /* Text background*/
 .feature-text {
-    background-color: #1b1846;
     width: 100%;
     max-width: 450px;
     height: 390px;
@@ -152,7 +177,6 @@ position: absolute;
     right: 10rem;
     transform: translateY(-50%);
     opacity: 1;
-    background-color: #1b1846;
     border-radius: 50%;
 }
 
