@@ -23,6 +23,23 @@
     }
 }
 
+.dark-mode {
+    --bs-primary: #1976D2;
+    --bs-primary-rgb: 25, 118, 210;
+
+    --bs-secondary: #E5E7EB;
+    --bs-secondary-rgb: 229, 231, 235;
+
+    --bs-info: #64B5F6;
+    --bs-info-rgb: 100, 181, 246;
+
+    --bs-light: #252525;
+    --bs-light-rgb: 37, 37, 37;
+
+    --bs-white: #202124;
+    --bs-white-rgb: 32, 33, 36;
+}
+
 /* btn overide for primary */
 .btn-primary {
   --bs-btn-color: #ffffff;
