@@ -27,17 +27,17 @@
     --bs-primary: #1976D2;
     --bs-primary-rgb: 25, 118, 210;
 
-    --bs-secondary: #E5E7EB;
-    --bs-secondary-rgb: 229, 231, 235;
-
     --bs-info: #64B5F6;
     --bs-info-rgb: 100, 181, 246;
 
-    --bs-light: #252525;
-    --bs-light-rgb: 37, 37, 37;
+    --bs-light: #35373C;
+    --bs-light-rgb: 53, 55, 60;
 
     --bs-white: #202124;
     --bs-white-rgb: 32, 33, 36;
+
+    --bs-dark: #ffffff;
+    --bs-dark-rgb: 255, 255, 255;
 }
 
 /* btn overide for primary */
@@ -81,6 +81,10 @@ position: absolute;
     height: 100%;
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 3;
+}
+
+.dark-mode .hero-fade-overlay {
+    background: linear-gradient(to right, rgba(32, 33, 36, 1) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .hero-blur-overlay {
@@ -196,6 +200,10 @@ position: absolute;
   fill: #D9D9DA;
 }
 
+.dark-mode .wave path {
+  fill: #35373C;
+}
+
 @media (max-width: 767.98px) {
   .wave {
     height: 80px; 
@@ -271,16 +279,16 @@ position: absolute;
     background-color: #1b1846 !important;
 }
 
+.dark-mode .feature-indicators button.active {
+    background-color: #1976D2 !important;
+}
+
 .notice-section {
     max-width: 60rem;
 }
 
 /* End How to use section */
 /* Contact section */
-
-.contact-section{
-    margin-top: 7rem;
-}
 
 .contact-box{
     max-width: 18rem;
@@ -293,6 +301,7 @@ position: absolute;
 /* End contact section */
 /* Start Footer */
 
-.footer{
-    margin-top: 7rem;
+.section-div{
+    padding-top: 7rem;
+    padding-bottom:  7rem;
 }
