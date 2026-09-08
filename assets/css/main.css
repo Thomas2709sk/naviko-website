@@ -73,6 +73,28 @@
     padding: 0;
 }
 
+body.dark-mode {
+    background-color: #202124 !important;
+}
+
+/* Header */
+header {
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background-color: var(--header-bg) !important;
+    backdrop-filter: blur(4px)!important;
+
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+body.dark-mode header {
+    background-color: rgba(32, 33, 36, 0.85)!important;
+    border-bottom-color: rgba(255, 255, 255, 0.1)!important;
+}
+
 /* Hero section */
 .hero-fade-overlay {
 position: absolute;
