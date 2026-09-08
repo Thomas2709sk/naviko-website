@@ -8,6 +8,12 @@ function updateThemeUI(isDark) {
     if (heroLogo) heroLogo.src = isDark ? "assets/images/Naviko Dark.png" : "assets/images/Naviko Main.png";
     if (themeIcon) themeIcon.classList.replace(isDark ? "fa-moon" : "fa-sun", isDark ? "fa-sun" : "fa-moon");
     if (themeText) themeText.textContent = isDark ? "Mode clair" : "Mode sombre";
+
+    if (themeText) {
+        const key = isDark ? "themeLight" : "themeDark";
+        
+        themeText.textContent = translations[currentLang][key]; 
+    }
 }
 
 
