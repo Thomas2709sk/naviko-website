@@ -2,33 +2,24 @@ const darkModeToggle = document.getElementById("darkMode");
 const heroLogo = document.getElementById("heroLogo");
 const themeIcon = document.getElementById("themeIcon");
 const themeText = document.getElementById("themeText");
-const savedTheme = localStorage.getItem("darkMode");
 
-if (savedTheme === "enabled") {
+
+function updateThemeUI(isDark) {
+    if (heroLogo) heroLogo.src = isDark ? "assets/images/Naviko Dark.png" : "assets/images/Naviko Main.png";
+    if (themeIcon) themeIcon.classList.replace(isDark ? "fa-moon" : "fa-sun", isDark ? "fa-sun" : "fa-moon");
+    if (themeText) themeText.textContent = isDark ? "Mode clair" : "Mode sombre";
+}
+
+
+const isDark = localStorage.getItem("darkMode") === "enabled";
+if (isDark) {
     document.body.classList.add("dark-mode");
-
-    // Utilisation de l'optional chaining pour éviter l'erreur si l'élément est null
-    if (heroLogo) heroLogo.src = "assets/images/Naviko Dark.png";
-    if (themeIcon) themeIcon.classList.replace("fa-moon", "fa-sun");
-    if (themeText) themeText.textContent = "Mode clair";
 }
+updateThemeUI(isDark);
 
-if (darkModeToggle) {
-    darkModeToggle.addEventListener("click", () => {
-        const isDark = document.body.classList.toggle("dark-mode");
 
-        if (isDark) {
-            if (heroLogo) heroLogo.src = "assets/images/Naviko Dark.png";
-            if (themeIcon) themeIcon.classList.replace("fa-moon", "fa-sun");
-            if (themeText) themeText.textContent = "Mode clair";
-
-            localStorage.setItem("darkMode", "enabled");
-        } else {
-            if (heroLogo) heroLogo.src = "assets/images/Naviko Main.png";
-            if (themeIcon) themeIcon.classList.replace("fa-sun", "fa-moon");
-            if (themeText) themeText.textContent = "Mode sombre";
-
-            localStorage.setItem("darkMode", "disabled");
-        }
-    });
-}
+darkModeToggle?.addEventListener("click", () => {
+    const isNowDark = document.body.classList.toggle("dark-mode");
+    localStorage.setItem("darkMode", isNowDark ? "enabled" : "disabled");
+    updateThemeUI(isNowDark);
+});
