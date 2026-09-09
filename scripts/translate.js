@@ -61,6 +61,18 @@ const translations = {
         downlText: "Téléchargez Naviko Commencez à utiliser Naviko et profitez d'une assistance intelligente pour vous accompagner lors de vos déplacements. Téléchargez gratuitement l'application sur votre smartphone.",
         downlText2: "Gratuit • Interface accessible • Conçu pour les personnes malvoyantes",
 
+        // FAQ section
+        faqTitle: "Foire aux questions",
+        faqQues: "Naviko est-il gratuit ?",
+        faqAns: "Oui, l'application est téléchargeable gratuitement avec ses fonctionnalités essentielles.",
+        faqQues2: "Sur quels smartphones fonctionne-t-il ?",
+        faqAns2: "Naviko est disponible uniquement sur smartphone Android pour le moment.",
+        faqQues3: "Naviko remplace-t-il une canne blanche ou un chien guide ?",
+        faqAns3: "Non, Naviko est un outil d'assistance complémentaire et ne remplace pas les aides à la mobilité traditionnelles.",
+        faqQues4: "Comment signaler un problème ?",
+        faqAns4: "Vous pouvez signaler un bug directement depuis le menu « Support » de l'application ou via notre mail de contact.",
+        faqQues5: "Mes données sont-elles enregistrées ?",
+        faqAns5: "Non, aucune donnée n'est enregistrée. L'IA fonctionne à 100 % en local sur votre appareil, sans aucun serveur ni collecte.",
 
     },
     en: {
@@ -124,6 +136,19 @@ const translations = {
         downlTitle: "Download Naviko",
         downlText: "Get started with Naviko and enjoy intelligent assistance on every journey. Download the app for free on your smartphone.",
         downlText2: "Free • Accessible Interface • Designed for the visually impaired",
+
+        // FAQ section
+        faqTitle: "Frequently Asked Questions",
+        faqQues: "Is Naviko free ?",
+        faqAns: "Yes, the app is free to download with its essential features.",
+        faqQues2: "Which smartphones does it work on ?",
+        faqAns2: "Naviko is currently only available on Android smartphones.",
+        faqQues3: "Does Naviko replace a white cane or a guide dog ?",
+        faqAns3: "No, Naviko is a complementary assistance tool and does not replace traditional mobility aids.",
+        faqQues4: "How to report an issue ?",
+        faqAns4: "You can report a bug directly from the "/Support/" menu in the app or via our contact email.",
+        faqQues5: "Are my data recorded?",
+        faqAns5: "No, no data is recorded. The AI operates 100% locally on your device, with no servers or data collection.",
     }
 };
 
