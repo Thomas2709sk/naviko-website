@@ -44,6 +44,18 @@ const translations = {
         howText5: "Ajustez la voix, le contraste, la taille du texte et les préférences d'accessibilité afin d'adapter Naviko à vos besoins.",
         howText6: "Les paramètres peuvent être modifiés à tout moment depuis le menu de l'application",
 
+        // Notice section
+        notiTitle: "[Important] Utiliser Naviko en toute sécurité",
+        notiText: "Naviko est conçu pour accompagner les personnes malvoyantes lors de leurs déplacements. L'application constitue une aide complémentaire et ne remplace ni la vigilance de l'utilisateur, ni une canne blanche, un chien guide ou tout autre moyen d'assistance.",
+        notiLi: "Orientez toujours la caméra vers l'avant pour garantir une analyse optimale.",
+        notiLi2: "Utilisez l'application dans des conditions de visibilité suffisantes lorsque cela est possible",
+        notiLi3: "Vérifiez que la batterie de votre smartphone est suffisante avant un déplacement.",
+        notiLi4: "Certaines détections peuvent être moins précises selon l'environnement, la météo ou les conditions d'éclairage.",
+        notiLi5: "Gardez toujours le contrôle de vos déplacements et restez attentif à votre environnement.",
+        notiTitle2: "A noter",
+        notiText2: "Les performances de détection peuvent varier selon les conditions d'éclairage, la météo ou l'environnement. Naviko est conçu comme une aide complémentaire et ne remplace pas la vigilance de l'utilisateur ni les autres moyens d'assistance à la mobilité.",
+        notiText3: "Consultez nos Conditions d'utilisation",
+
 
     },
     en: {
@@ -90,6 +102,18 @@ const translations = {
         howTitle5: "Customize Naviko",
         howText5: "Adjust the voice, contrast, text size, and accessibility settings to tailor Naviko to your needs.",
         howText6: "Settings can be changed at any time from the app menu.",
+
+        // Notice section
+        notiTitle: "[Important] Using Naviko safely",
+        notiText: "Naviko is designed to support visually impaired individuals on their journeys. The app serves as a complementary aid and is not a substitute for user vigilance, a white cane, a guide dog, or any other mobility device.",
+        notiLi: "Always point the camera forward to ensure optimal performance.",
+        notiLi2: "Use the app in well-lit conditions whenever possible",
+        notiLi3: "Make sure your smartphone battery is sufficiently charged before setting off.",
+        notiLi4: "Some detections may be less accurate depending on the environment, weather, or lighting conditions.",
+        notiLi5: "Always remain in full control of your movement and stay aware of your surroundings.",
+        notiTitle2: "Please note",
+        notiText2: "Detection performance may vary depending on lighting conditions, weather, or surroundings. Naviko is designed as a complementary aid and is not a substitute for user vigilance or other mobility aids.",
+        notiText3: "Read our Terms of Use",
     }
 };
 
