@@ -56,6 +56,11 @@ const translations = {
         notiText2: "Les performances de détection peuvent varier selon les conditions d'éclairage, la météo ou l'environnement. Naviko est conçu comme une aide complémentaire et ne remplace pas la vigilance de l'utilisateur ni les autres moyens d'assistance à la mobilité.",
         notiText3: "Consultez nos Conditions d'utilisation",
 
+        // Download section
+        downlTitle: "Téléchargez Naviko",
+        downlText: "Téléchargez Naviko Commencez à utiliser Naviko et profitez d'une assistance intelligente pour vous accompagner lors de vos déplacements. Téléchargez gratuitement l'application sur votre smartphone.",
+        downlText2: "Gratuit • Interface accessible • Conçu pour les personnes malvoyantes",
+
 
     },
     en: {
@@ -114,6 +119,11 @@ const translations = {
         notiTitle2: "Please note",
         notiText2: "Detection performance may vary depending on lighting conditions, weather, or surroundings. Naviko is designed as a complementary aid and is not a substitute for user vigilance or other mobility aids.",
         notiText3: "Read our Terms of Use",
+
+        // Download section
+        downlTitle: "Download Naviko",
+        downlText: "Get started with Naviko and enjoy intelligent assistance on every journey. Download the app for free on your smartphone.",
+        downlText2: "Free • Accessible Interface • Designed for the visually impaired",
     }
 };
 
