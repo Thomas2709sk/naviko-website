@@ -74,6 +74,10 @@ const translations = {
         faqQues5: "Mes données sont-elles enregistrées ?",
         faqAns5: "Non, aucune donnée n'est enregistrée. L'IA fonctionne à 100 % en local sur votre appareil, sans aucun serveur ni collecte.",
 
+        // Footer
+        footer: "Mentions légales",
+        footer2: "Politique de confidentialité",
+        footer3: "Conditions d’utilisation",
     },
     en: {
         darkTheme: "Dark mode",
@@ -146,9 +150,14 @@ const translations = {
         faqQues3: "Does Naviko replace a white cane or a guide dog ?",
         faqAns3: "No, Naviko is a complementary assistance tool and does not replace traditional mobility aids.",
         faqQues4: "How to report an issue ?",
-        faqAns4: "You can report a bug directly from the "/Support/" menu in the app or via our contact email.",
+        faqAns4: "You can report a bug directly from the « Support » menu in the app or via our contact email.",
         faqQues5: "Are my data recorded?",
         faqAns5: "No, no data is recorded. The AI operates 100% locally on your device, with no servers or data collection.",
+    
+        // Footer
+        footer: "Legal Notice",
+        footer2: "Privacy Policy",
+        footer3: "Terms of Use",
     }
 };
 
