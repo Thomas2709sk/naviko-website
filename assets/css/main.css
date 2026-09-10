@@ -240,6 +240,7 @@ position: absolute;
 /* How to use section */
 
 /* Text background*/
+
 .feature-text {
     width: 100%;
     max-width: 450px;
@@ -248,11 +249,13 @@ position: absolute;
 }
 
 /* Phone size */
+
 .feature-phone {
     width: 280px;
 }
 
 /* Margin */
+
 .mb-n4 { margin-bottom: -1.5rem !important; }
 @media (min-width: 992px) {
     .me-lg-n4 { margin-right: -2rem !important; }
@@ -260,6 +263,7 @@ position: absolute;
 }
 
 /* Arrow button */
+
 .feature-next {
     width: 50px;
     height: 50px;
@@ -271,6 +275,7 @@ position: absolute;
 }
 
 /* Arrow button Mobile */
+
 @media (max-width: 991.98px) {
     .feature-next {
         position: absolute !important;
@@ -284,6 +289,7 @@ position: absolute;
 }
 
 /* Carousel dots */
+
 .feature-indicators {
     position: relative;
     gap: 10px;
@@ -310,8 +316,17 @@ position: absolute;
 }
 
 /* End How to use section */
-/* Contact section */
 
+/* FAQ section */
+
+.faq-question{
+    cursor: pointer;
+}
+
+/* End FAQ section */
+
+
+/* Contact section */
 
 .contact-box{
     max-width: 18rem;
