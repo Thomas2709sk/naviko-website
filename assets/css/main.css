@@ -1,5 +1,7 @@
 /* Bootstrap overide */
+
 :root{
+
     /* Colours */
     --bs-primary: #1B1846;
     --bs-primary-rgb: 27, 24, 70;
@@ -67,6 +69,7 @@
 }
 
 /* reset */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -78,6 +81,7 @@ body.dark-mode {
 }
 
 /* Header */
+
 header {
 
     position: sticky;
@@ -96,6 +100,7 @@ body.dark-mode header {
 }
 
 /* Hero section */
+
 .hero-fade-overlay {
 position: absolute;
 
@@ -337,6 +342,7 @@ position: absolute;
 }
 
 /* End contact section */
+
 /* Start Footer */
 
 .section-div{
@@ -345,6 +351,7 @@ position: absolute;
 }
 
 /* End Footer */
+
 /* Scroll Top Button */
 
 .scroll-top {
@@ -388,4 +395,20 @@ body.dark-mode .scroll-top {
 
 body.dark-mode .scroll-top:hover {
     background-color: #1976D2;
+}
+
+/* End scroll top */
+
+/* scroll */
+
+.fade-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
+}
+
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
 }

@@ -32,10 +32,14 @@ The website presents:
 - How Naviko works
 - Download link
 - FAQ
+- Legal Notice
 - Terms of Use
 - Privacy Policy
 
 The website is intentionally kept simple and accessible, with a focus on clarity, readability and accessibility.
+
+- Dark mode
+- English translation
 
 ---
 
