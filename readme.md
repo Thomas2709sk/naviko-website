@@ -93,6 +93,9 @@ Here are all the documents and tools used throughout the development of Naviko
 - [Website User Flow (PNG)](docs/diagrams/User%20Flows.jpg)
 - [Use case diagram (PNG)](docs/diagrams/Diagramme%20use%20case.png)
 
+
+- Other documents will be available on the application Github
+
 ---
 
 ## Naviko Application
