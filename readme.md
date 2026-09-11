@@ -4,6 +4,8 @@ This repository contains the presentation website for Naviko, a mobile applicati
 
 The website introduces the project, its main features, the technology behind Naviko, and its approach to accessibility and user safety.
 
+https://thomas2709sk.github.io/naviko-website/
+
 ---
 
 ## Project
