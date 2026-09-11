@@ -11,8 +11,8 @@ function updateThemeUI(isDark) {
 
   if (heroLogo) {
     heroLogo.src = isDark 
-      ? `${basePath}assets/images/Naviko Dark.png` 
-      : `${basePath}assets/images/Naviko Main.png`;
+      ? `${basePath}assets/images/Naviko-Dark.png` 
+      : `${basePath}assets/images/Naviko-Main.png`;
   }
 
 
