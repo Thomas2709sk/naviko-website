@@ -77,6 +77,10 @@ font-family: 'Nunito', sans-serif;
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 body.dark-mode {
     background-color: #202124 !important;
 }
